@@ -61,13 +61,13 @@ The Super Kuma 9000 case comes with the following:
 
 1. When RetroPie Boots up for the first time it will prompt you to configure your controller. With your controller or keyboard connected select your hotkeys.
 
- *Note: If using a keyboard remember which keys you select for the D-pad, "A", and "B". they will be needed to navigate the RetroPie menus until you configure your controller.*
+ *Note: If using a keyboard remember which keys you select for the D-pad, "A", "B", and "Start". they will be needed to navigate the RetroPie menus until you configure a controller.*
 
 2. Navigate the RetroPie menu to RetroPie Setup. Select Update and then select yes to update all. This update can take up to 30 minutes.
 
 3. Once the updates have been installed, select Reboot from the same menu and reboot your RetroPie.
 
-  *Note: If RetroPie request login information the default login information is: user = "pi", password = "raspberry". Once RetroPie boots up press F4. At the command line type "sudo raspi-config" and press enter. Select the 3rd option followed by the 2nd option that says auto login.*
+  *Note: If RetroPie request login information the default login information is: user = "pi", password = "raspberry". Once RetroPie boots up press F4. At the command line type "sudo raspi-config" and press enter. Select "Boot Options", then "Desktop / CLI", followed by "Console Autologin".*
 
 4. When RetroPie boots up go back into the RetroPie Setup Menu. Select "Manage packages". Followed by "Manage experimental packages". Finally select "RetroPie Manager" and install.
 
@@ -82,3 +82,25 @@ The Super Kuma 9000 case comes with the following:
 8. With the RetroPie Manager you can now monitor your device status and upload your BIOS and ROM files from your browser.
 
  *Note: For more details on the installation and setup of RetroPie please view this [video](https://youtu.be/Tjyjf2fCECU).*
+
+## Install Super Kuma 9000 PCB
+
+ 1. Press "F4" to open the terminal. Type the following command and press "Enter".
+
+  ```
+  sudo wget -O - https://goo.gl/22RsN3 | bash
+  ```
+
+ *Note: If your keyboard isn't allowing you to type special characters hold down "ALT" and press "1,2,4" to make a | (pipeline).*
+
+ 2. When the installation is done you will see the "pi @retropie:~$" line on the bottom of the screen next to a blinking cursor. Type the following command to restart your Pi.
+
+ ```
+ sudo shutdown -h know
+ ```
+
+## References
+
+ * https://youtu.be/Tjyjf2fCECU
+ * https://retropie.org.uk
+ * https://www.raspberrypi.org/
