@@ -96,7 +96,7 @@ The Super Kuma 9000 case comes with the following:
  2. When the installation is done you will see the "pi @retropie:~$" line on the bottom of the screen next to a blinking cursor. Type the following command to restart your Pi.
 
  ```
- sudo shutdown -h know
+ sudo shutdown -h now
  ```
 
 ## References
